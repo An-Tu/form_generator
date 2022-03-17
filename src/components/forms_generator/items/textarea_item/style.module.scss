@@ -1,0 +1,9 @@
+@import '../share_styles.scss';
+
+.wrapper {
+  @include item-layout;
+}
+
+.textarea {
+  resize: none;
+}

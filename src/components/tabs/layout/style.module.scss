@@ -1,0 +1,14 @@
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+}
+
+.tabs {
+  display: flex;
+}
+
+.content {
+  padding: 30px;
+  border: 1px solid black;
+}

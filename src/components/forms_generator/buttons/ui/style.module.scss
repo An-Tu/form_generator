@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 4px;
+
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}

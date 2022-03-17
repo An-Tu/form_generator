@@ -1,0 +1,22 @@
+.tab {
+  --border-value: 1px solid black;
+
+  border-left: var(--border-value);
+  border-top: var(--border-value);
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+
+  padding: 8px 16px;
+
+  &:last-child {
+    border-right: var(--border-value);
+  }
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.active {
+  background-color: #ddd;
+}

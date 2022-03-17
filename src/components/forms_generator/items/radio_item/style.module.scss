@@ -1,0 +1,10 @@
+@import '../share_styles.scss';
+
+.wrapper {
+  @include item-layout;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+@mixin item-layout {
+  display: grid;
+  grid-template-columns: 100px auto;
+  gap: 16px;
+  margin-bottom: 16px;
+}
